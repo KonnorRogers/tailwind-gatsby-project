@@ -8,6 +8,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    If the text below is red, Tailwind is successfully running!
     <h1 className="bg-red-500">Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
